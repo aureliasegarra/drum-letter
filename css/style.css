@@ -19,6 +19,7 @@ body {
     font-weight: bold;
     font-size: 3em;
     text-transform: uppercase;
+    letter-spacing: 3px;
     padding: 10px;
     margin: 20px;
 }
@@ -29,10 +30,32 @@ body {
     margin-top: 100px;
 }
 
+.key {
+    border: 3px solid black;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 .letter {
+    display: block;
+    width: 50px;
     color: blanchedalmond;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
+    font-family: serif;
+    font-size: 3em;
     padding: 20px;
-    border: 1px solid blanchedalmond ;
+    
+}
+
+.sound {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0,5em;
+    letter-spacing: 1px;
+    color: #ffc600;
+}
+
+.sound-playing {
+    transform: scale(1,1);
+    border-color: blanchedalmond;
+    box-shadow: 0 0 10px blanchedalmond;
 }
