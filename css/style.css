@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: rgb(6, 6, 6);
+    display: flex;
+}
+
+.container {
+    background-image: url(../img/drum.jpg);
+    background-size: cover;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.title {
+    color:blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 20px;
+}
+
+.letter-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.letter {
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 20px;
+    border: 1px solid blanchedalmond ;
+}
