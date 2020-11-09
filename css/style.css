@@ -32,8 +32,17 @@ body {
 
 .key {
     border: 3px solid black;
+    border-radius: 5px;
     text-align: center;
-    padding-bottom: 5px;
+    padding: .5rem;
+    transition: all 0.07s;
+    text-shadow: 0 0 5px black;
+}
+
+.playing {
+    transform: scale(1,1);
+    border-color: blanchedalmond;
+    box-shadow: 0 0 10px blanchedalmond;
 }
 
 .letter {
@@ -55,8 +64,3 @@ body {
     color: #ffc600;
 }
 
-.playing {
-    transform: scale(1,1);
-    border-color: blanchedalmond;
-    box-shadow: 0 0 10px blanchedalmond;
-}
